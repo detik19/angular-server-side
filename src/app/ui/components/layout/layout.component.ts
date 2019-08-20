@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.css']
 })
 export class LayoutComponent implements OnInit {
-
+  logo = 'assets/logo.svg';
+  title = 'angular social';
+  items = [{label: 'Posts', url: '/posts'}];
   constructor() { }
 
   ngOnInit() {
